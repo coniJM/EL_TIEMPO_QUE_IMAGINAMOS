@@ -1,0 +1,12 @@
+{
+  "name": "el-tiempo-que-imaginamos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Experiencia interactiva con visualización colectiva",
+  "scripts": {
+    "start": "node js/servidor.js"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

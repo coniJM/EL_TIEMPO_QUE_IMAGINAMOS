@@ -28,7 +28,7 @@ Por otro lado, la respuesta escrita se visualiza durante 8 segundos al momento d
 
 El tiempo como una experiencia subjetiva que puede _transformarse_ según nuestras vivencias y expectativas.
 
-**2. Permanecia**
+**2. Permanencia**
 
 Las experiencias y reflexiones dejan huellas que continúan formando parte de nuestra historia.
 
@@ -40,7 +40,7 @@ La manera en la que percibimos el pasado, vivimos el presente e imaginamos el fu
 
 **_Cada persona imagina el tiempo de una manera distinta, pero todas esas perspectivas pueden construir algo en común._**
 
-## **5. Próposito de la experiencia**
+## **5. Propósito de la experiencia**
 
 Generar un espacio de reflexión sobre la percepción del tiempo, para que cada participante reconozca su propia manera de imaginarlo
 y observe cómo distintas perspectivas pueden reunirse en una construcción visual colectiva.

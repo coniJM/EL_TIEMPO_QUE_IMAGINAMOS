@@ -914,3 +914,53 @@ body {
   border-radius: 10px; opacity: 0; pointer-events: none; transition: opacity .15s;
 }
 
+
+
+
+/* Control para abrir o cerrar la pantalla completa */
+.fullscreen-button {
+  position: fixed;
+  top: 18px;
+  right: 20px;
+  z-index: 10000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 0 13px;
+  border: 1px solid rgba(88, 59, 56, .25);
+  border-radius: 999px;
+  background: rgba(249, 236, 232, .88);
+  color: var(--brown);
+  font: 500 12px/1 'DM Sans', sans-serif;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: background-color .2s ease, border-color .2s ease;
+}
+
+.fullscreen-button:hover {
+  background: #fff8f5;
+  border-color: rgba(88, 59, 56, .5);
+}
+
+.fullscreen-button:focus-visible {
+  outline: 2px solid var(--rose);
+  outline-offset: 3px;
+}
+
+.fullscreen-icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+@media (min-width: 601px) {
+  .hero .topbar span:last-child { margin-right: 175px; }
+}
+
+@media (max-width: 600px) {
+  .fullscreen-button { top: 12px; right: 12px; min-height: 40px; width: 42px; padding: 0; }
+  .fullscreen-label { display: none; }
+  .hero .topbar span:last-child { margin-right: 54px; }
+}

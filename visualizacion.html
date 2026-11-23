@@ -56,8 +56,16 @@
       window.setInterval(updateStatus, 4000);
     });
   </script>
+   <script src="./js/pantalla-completa.js" defer></script>
 </head>
 <body>
+  <button class="fullscreen-button" id="fullscreen-toggle" type="button"
+  aria-label="Ver en pantalla completa" aria-pressed="false"
+  title="Ver en pantalla completa">
+  <span class="fullscreen-icon" aria-hidden="true">⛶</span>
+  <span class="fullscreen-label">Pantalla completa</span>
+</button>
+  
   <main class="closing screen screen--active" aria-label="Visualización de la flor colectiva">
     <div class="display-heading"><p>EL TIEMPO QUE IMAGINAMOS</p><h1>Una flor hecha entre todos</h1><p class="display-hint">Presiona los pétalos para ver las demás respuestas.</p></div>
     <div id="flor-colectiva"></div>
